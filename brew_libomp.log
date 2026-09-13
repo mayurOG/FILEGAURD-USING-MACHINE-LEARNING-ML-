@@ -1,0 +1,6 @@
+because it can override GCC headers and result in broken builds.
+
+For compilers to find libomp you may need to set:
+  export LDFLAGS="-L/opt/homebrew/opt/libomp/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/libomp/include"
+BREW_EXIT:0

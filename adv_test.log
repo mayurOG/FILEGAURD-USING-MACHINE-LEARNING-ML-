@@ -1,0 +1,178 @@
+
+FileGaurd — Advanced Machine-Learning Features
+Author: Mayur Nhavalde
+
+Dataset shape : (2000, 13)   (13 selectBest features + 1 target)
+Class balance : legitimate=1000, malicious=1000
+NOTE: running in quick smoke-test mode (--samples).
+
+============================================================
+ADVANCED FEATURE 2 : HYPERPARAMETER OPTIMIZATION (RandomizedSearchCV)
+============================================================
+/Users/mayurnnhavalde/.venv/lib/python3.9/site-packages/xgboost/core.py:158: UserWarning: [13:46:51] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+[13:46:52] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:52] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:52] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:52] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:52] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:55] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:55] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:55] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:55] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:55] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:56] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:56] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:56] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:56] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:56] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:57] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:57] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:57] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:57] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:57] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:57] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:57] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:57] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:57] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:57] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:57] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:57] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:57] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:58] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:58] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:58] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:58] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:58] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:58] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+[13:46:58] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  Best parameters :
+      n_estimators = 200
+      min_samples_split = 2
+      min_samples_leaf = 1
+      max_features = sqrt
+      max_depth = 15
+      criterion = gini
+
+[Tuned Random Forest]
+  Accuracy        : 0.97250
+  Precision       : 0.98462
+  Recall          : 0.96000
+  F1-Score        : 0.97215
+  False positive  : 1.5385 %
+  False negative  : 3.9024 %
+
+============================================================
+ADVANCED FEATURE 1 : STACKING ENSEMBLE
+============================================================
+
+[Stacking Ensemble (RF + XGB + GBoost -> LR)]
+  Accuracy        : 0.98000
+  Precision       : 0.99485
+  Recall          : 0.96500
+  F1-Score        : 0.97970
+  False positive  : 0.5155 %
+  False negative  : 3.3981 %
+  5-fold Cross-Validation Accuracy : 0.97150 (+/- 0.0135)
+
+============================================================
+ADVANCED FEATURE 3 : OPTIMIZED DECISION THRESHOLD
+============================================================
+  Optimized threshold (Youden's J) : 0.7500
+  Default threshold                : 0.5000
+
+  -- Model with DEFAULT threshold (0.50) --
+
+[Default]
+  Accuracy        : 0.97000
+  Precision       : 0.98454
+  Recall          : 0.95500
+  F1-Score        : 0.96954
+  False positive  : 1.5464 %
+  False negative  : 4.3689 %
+
+  -- Model with OPTIMIZED threshold --
+
+[Optimized]
+  Accuracy        : 0.97000
+  Precision       : 0.98454
+  Recall          : 0.95500
+  F1-Score        : 0.96954
+  False positive  : 1.5464 %
+  False negative  : 4.3689 %
+
+Done. All three advanced features executed successfully.
+
+EXIT:0
